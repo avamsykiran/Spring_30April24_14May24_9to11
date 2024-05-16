@@ -1,0 +1,32 @@
+package com.cts.springiocdemo.ui;
+
+import java.time.LocalDate;
+import java.util.Scanner;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import com.cts.springiocdemo.service.GreetService;
+
+@Component
+public class HomeScreen {
+	
+	@Autowired
+	private LocalDate date;
+	
+	@Autowired
+	private Scanner kbin;
+	
+	@Autowired
+	private GreetService greetService1;
+
+	public void run() {
+		System.out.println("Today: "+date);
+		System.out.println("Spring IOC Demo Application");
+		System.out.println("---------------------------------------------------------");
+		
+		System.out.println("User Name? ");
+		String userName = kbin.next();
+		System.out.println(greetService1.greet(userName));
+	}
+}

@@ -1,0 +1,15 @@
+package com.cts.springiocdemo.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class CounterServiceImpl implements CounterService {
+
+	private int seed;
+	
+	@Override
+	public int next() {
+		return ++seed;
+	}
+
+}

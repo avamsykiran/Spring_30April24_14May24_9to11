@@ -1,0 +1,4 @@
+INDEX VERSION 1.4+C:\Cognizant\ongoing\Spring_30April24_14May24_9to11\WS\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2055736267.index
+3403697659.index
+1387620135.index

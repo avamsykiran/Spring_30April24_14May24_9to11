@@ -1,0 +1,11 @@
+spring.application.name=spring-boot-web-demo
+server.port=9999
+
+spring.thymeleaf.cache=false  
+spring.thymeleaf.suffix=.html 
+
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.username=root
+spring.datasource.password=root
+spring.datasource.url=jdbc:mysql://localhost:3306/contactsdb?createDatabaseIfNotExist=true
+spring.jpa.hibernate.ddl-auto=update
